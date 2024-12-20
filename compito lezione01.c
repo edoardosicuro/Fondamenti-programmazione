@@ -16,9 +16,9 @@ int main()
 
     printf("\nInserire età :");
 
-    scanf("%d",eta);
+    scanf("%d",&eta);
 
-    printf("\nBenevenuto %s %s di anni %d\n\n Grazie per aver usato il nostro programma\n\n Ti auguriamo Buone feste\n\n   *\n  ***\n *****\n*******\n  ***",name,surname,eta);
+    printf("\nBenevenuto %s %s di anni %d\n\n Grazie per aver usato il nostro programma\n\n Ti auguriamo Buone feste\n\n   *\n  ***\n *****\n*******\n  ***\n\n\n",name,surname,eta);
 
     return 0;
 
